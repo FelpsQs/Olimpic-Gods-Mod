@@ -67,17 +67,76 @@
           }
         ]
       }
+    },
+    {
+      "name": "PerfectCubeCore",
+      "type": "block",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "perfect_cube_core"
+    },
+    {
+      "name": "PerfectCubeWall",
+      "type": "block",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "perfect_cube_wall"
+    },
+    {
+      "name": "ProtectionWand",
+      "type": "item",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "protection_wand"
+    },
+    {
+      "name": "PerfectCubeCasting",
+      "type": "procedure",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "perfect_cube_casting",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "block.olimpic_gods.perfect_cube_core": "Perfect Cube Core",
       "item.olimpic_gods.boots_boots": "Boots Boots",
+      "item.olimpic_gods.protection_wand": "Protection Wand",
       "item.olimpic_gods.boots_chestplate": "Boots Body",
       "item.olimpic_gods.boots_helmet": "Boots Helmet",
       "item.olimpic_gods.boots_leggings": "Boots Leggings",
-      "key.olimpic_gods.toggetle_fly_mode": "Toggetle Fly Mode"
+      "key.olimpic_gods.toggetle_fly_mode": "Toggetle Fly Mode",
+      "block.olimpic_gods.perfect_cube_wall": "Perfect Cube Wall"
     }
   },
   "foldersRoot": {

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "olimpic_gods:blocks/perfect_cube_core",
+    "up": "olimpic_gods:blocks/perfect_cube_core",
+    "north": "olimpic_gods:blocks/perfect_cube_core",
+    "east": "olimpic_gods:blocks/perfect_cube_core",
+    "south": "olimpic_gods:blocks/perfect_cube_core",
+    "west": "olimpic_gods:blocks/perfect_cube_core",
+    "particle": "olimpic_gods:blocks/perfect_cube_core"
+  }
+}
