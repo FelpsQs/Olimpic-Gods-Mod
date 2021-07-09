@@ -1,0 +1,105 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "Boots",
+      "type": "armor",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "boots",
+      "metadata": {
+        "eh": false,
+        "el": false,
+        "eb": true,
+        "ec": false
+      }
+    },
+    {
+      "name": "ToggetleFlyMode",
+      "type": "keybind",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "toggetle_fly_mode"
+    },
+    {
+      "name": "Bootsequiped",
+      "type": "overlay",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bootsequiped"
+    },
+    {
+      "name": "Stopfly",
+      "type": "procedure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "stopfly",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Bootdamagefix",
+      "type": "procedure",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bootdamagefix",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.olimpic_gods.boots_boots": "Boots Boots",
+      "item.olimpic_gods.boots_chestplate": "Boots Body",
+      "item.olimpic_gods.boots_helmet": "Boots Helmet",
+      "item.olimpic_gods.boots_leggings": "Boots Leggings",
+      "key.olimpic_gods.toggetle_fly_mode": "Toggetle Fly Mode"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "olimpic_gods",
+    "modName": "Olimpic Gods",
+    "version": "1.0.0",
+    "author": "FelpsQS, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "modElementsPackage": "net.mcreator.olimpicgods",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100118117
+}
